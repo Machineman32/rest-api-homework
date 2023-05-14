@@ -12,8 +12,7 @@ public class MovieDao {
     }
 
     public Movie createMovie (Movie movie) {
-        Genre genre = Genre.valueOf(movie.getGenre().toUpperCase());
-        this.movies.add(new MoviePersisted(movie.getName(), genre, movie.getYear(), movie.getDirector(), Math.abs(new Random().nextLong())));
+        this.movies.add(new MoviePersisted(movie.getName(), movie.getGenre(), movie.getYear(), movie.getDirector(), Math.abs(new Random().nextLong())));
         return movie;
     }
 
@@ -34,7 +33,7 @@ public class MovieDao {
         for(MoviePersisted moviePersisted : this.movies) {
             if(moviePersisted.getId() == id) {
                 moviePersisted.setName(updatedMovie.getName());
-                moviePersisted.setGenre(Genre.valueOf(updatedMovie.getGenre()));
+                moviePersisted.setGenre(updatedMovie.getGenre());
                 moviePersisted.setYear(updatedMovie.getYear());
                 moviePersisted.setDirector(updatedMovie.getDirector());
             }

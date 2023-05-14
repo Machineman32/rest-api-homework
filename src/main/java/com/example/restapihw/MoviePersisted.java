@@ -20,6 +20,6 @@ public class MoviePersisted {
     }
 
     public Movie toMovie () {
-        return new Movie(this.name, this.getGenre().name(), this.getYear(), this.getDirector());
+        return new Movie(this.getName(), this.getGenre(), this.getYear(), this.getDirector());
     }
 }
