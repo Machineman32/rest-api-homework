@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f88617-b138-4f1e-863c-ed2c20b9b020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restapihw/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restapihw/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restapihw/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restapihw/MovieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restapihw/MoviePersisted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restapihw/MoviePersisted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/Java/Sandbox/books-api-project",
+    "last_opened_file_path": "D:/Projects/Java/Sandbox/rest-api-homework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -106,6 +104,7 @@
       <workItem from="1683994393954" duration="35000" />
       <workItem from="1683994554313" duration="2453000" />
       <workItem from="1684058650872" duration="125000" />
+      <workItem from="1684058886180" duration="387000" />
     </task>
     <servers />
   </component>
